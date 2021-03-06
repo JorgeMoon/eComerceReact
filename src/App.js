@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import logo2 from './logo2.svg';
+import {NavBar} from './Components/navbar';
 import './App.css';
+
 
 function App() {
   return (
+
     <div className="App">
+      <div>
+      <NavBar></NavBar>
+      </div>
+      
       <header className="App-header">
-        <img src={logo2} className="App-logo2" alt="logo" width="600" height="600" />
-        <p>
-          Mi primer <code> E-Commerce </code> con React!.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+     
+        <h2>Este es un Titulo h2</h2>
+
+          <button className="btn btn-primary">Boton de Prueba</button>
+
       </header>
     </div>
   );
