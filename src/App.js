@@ -2,13 +2,16 @@ import {NavBar} from './Components/navbar';
 import './App.css';
 
 
+
 function App() {
   return (
 
     <div className="App">
-      <div>
-      <NavBar></NavBar>
-      </div>
+     
+       <NavBar/> 
+
+ 
+    
       
       <header className="App-header">
      
