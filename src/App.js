@@ -1,4 +1,6 @@
 import {NavBar} from './Components/navbar';
+import {ItemListContainer} from './Components/itemlistcontainer';
+
 import './App.css';
 
 
@@ -9,13 +11,18 @@ function App() {
     <div className="App">
      
        <NavBar/> 
+       <ItemListContainer greeting="Este texto esta pasado por parametros como Propiedad de un componente"/>
+       
+       
 
  
     
       
       <header className="App-header">
-     
+      
+    
         <h2>Este es un Titulo h2</h2>
+      
 
           <button className="btn btn-primary">Boton de Prueba</button>
 

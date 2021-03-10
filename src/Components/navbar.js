@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../logo.svg';
 import {Dropdown} from 'react-bootstrap';
+import {CardWidget} from './cardwidget';
 
 
 export const NavBar = () => {
@@ -8,7 +9,7 @@ export const NavBar = () => {
     
     return(
         
-        <nav className=" navbar navbar-expand-lg navbar-light bg-light border-top-0 fixed-top">
+        <nav className=" navbar navbar-expand-lg navbar-light bg-light border-top-0 "> {/* fixed-top */}
 
             <a className="navbar-brand" href="#">
             <img src={logo} width="30" height="30" className="d-inline-block align-top" alt=""/>
@@ -39,6 +40,9 @@ export const NavBar = () => {
                         </Dropdown.Menu>
                     </Dropdown>
                 </ul>
+                <div className="btn btn-success mx-5">
+                <CardWidget ></CardWidget>
+                </div>
             </div>
           
 
