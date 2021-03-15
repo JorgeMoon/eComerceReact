@@ -1,5 +1,6 @@
 import {NavBar} from './Components/navbar';
 import {ItemListContainer} from './Components/itemlistcontainer';
+//import {ItemCount} from './Components/itemcount';
 
 import './App.css';
 
@@ -12,6 +13,8 @@ function App() {
      
        <NavBar/> 
        <ItemListContainer greeting="Este texto esta pasado por parametros como Propiedad de un componente"/>
+       <br/>
+       
        
        
 
