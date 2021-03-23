@@ -1,5 +1,6 @@
 import React from 'react';
-import {ItemCount} from './itemcount'
+
+import {ItemList} from './itemlist';
 
 export const ItemListContainer = (props) =>{
     return(
@@ -7,7 +8,8 @@ export const ItemListContainer = (props) =>{
         <h1>{props.greeting}</h1>
         <br/>
         <div  className="d-flex justify-content-center">
-        <ItemCount/>
+        
+        <ItemList/>
         </div>
        
         </>

@@ -6,15 +6,15 @@ import {Form} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 
-export const ItemCount = () =>{
+export const ItemCount = (props) =>{
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
     
 
     //Variable representativa del stock disponible
     const [max, setMax] = useState(5);
     //Variable representativa del stock en cero
-    let min = 0;
+    let min = 1;
     let name = "Nombre del Producto";
 
     const onAdd= (cant)=>{
@@ -30,7 +30,7 @@ export const ItemCount = () =>{
 
         <Card style={{ width: '16rem' }}>
             <Card.Header>{name}</Card.Header>
-            <Card.Img variant="top" src="https://image.flaticon.com/icons/png/512/1020/1020878.png" />
+            <Card.Img variant="top" src = {props.pictureUrl} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                     <Card.Text>

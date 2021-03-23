@@ -15,12 +15,6 @@ function App() {
        <ItemListContainer greeting="Este texto esta pasado por parametros como Propiedad de un componente"/>
        <br/>
        
-       
-       
-
- 
-    
-      
       <header className="App-header">
       
     

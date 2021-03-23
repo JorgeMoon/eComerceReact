@@ -1,0 +1,42 @@
+[
+    {
+        "id": "P001",
+        "title": "Primer Producto",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?",
+        "price": "6548",
+        "pictureUrl":"https://image.flaticon.com/icons/png/512/1020/1020878.png",
+        "stock": "5"
+    },
+    {
+        "id": "P002",
+        "title": "Segundo Producto",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?",
+        "price": "6548",
+        "pictureUrl":"https://image.flaticon.com/icons/png/512/1020/1020878.png",
+        "stock": "5"
+    },
+    {
+        "id": "P003",
+        "title": "Tercer Producto",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?",
+        "price": "6548",
+        "pictureUrl":"https://image.flaticon.com/icons/png/512/1020/1020878.png",
+        "stock": "5"
+    },
+    {
+        "id": "P004",
+        "title": "Cuarto Producto",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?",
+        "price": "6548",
+        "pictureUrl":"https://image.flaticon.com/icons/png/512/1020/1020878.png",
+        "stock": "5"
+    },
+    {
+        "id": "P005",
+        "title": "Quinto Producto",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?",
+        "price": "6548",
+        "pictureUrl":"https://image.flaticon.com/icons/png/512/1020/1020878.png",
+        "stock": "5"
+    }
+]
