@@ -1,6 +1,6 @@
 // componente de pruebas
 
-
+/* 
 import React, { useState } from "react";
 
 export default function App() {
@@ -24,4 +24,41 @@ export default function App() {
       </p>
     </div>
   );
+} */
+import React, { useState } from "react";
+import {BrowserRouter, Switch, Route} from "react-router-dom";
+
+
+
+export default function App() {
+
+  return(
+    <div>
+      <BrowserRouter>
+      <div className="App">
+        <NavBar/>
+        <Switch>
+          <Route path ='/'>
+            HOLA
+          </Route>
+          <Route path ='/list'>
+            <ItemListContainer/>
+          </Route>
+          <Route path = '/detail'>
+            <ItemDetailContainer/>
+          </Route>
+          <Route path = '*'>
+            404
+          </Route>
+        </Switch>
+      </div>
+      
+      
+      </BrowserRouter>
+
+
+    </div>
+  )
+
+
 }

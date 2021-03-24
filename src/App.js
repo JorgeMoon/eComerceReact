@@ -4,27 +4,38 @@ import {ItemListContainer} from './Components/itemlistcontainer';
 
 import './App.css';
 
+//Routering
+import {BrowserRouter, Switch, Route} from "react-router-dom";
+
 
 
 function App() {
   return (
 
+    /* ACA DEFINO LAS RUTAS CON ROUTERS */
+    <BrowserRouter>
     <div className="App">
      
        <NavBar/> 
-       <ItemListContainer greeting="Este texto esta pasado por parametros como Propiedad de un componente"/>
+       <Switch>
+          <Route exact path ='/'>
+            HOLA
+          </Route>
+          <Route path ='/list'>
+            <ItemListContainer/>
+          </Route>
+          <Route path = '/detail'>
+            DETALLE DEL PRODUCTO
+            {/* <ItemDetailContainer/> */}
+          </Route>
+          <Route path = '*'>
+            404
+          </Route>
+        </Switch>
+       {/* <ItemListContainer greeting="Este texto esta pasado por parametros como Propiedad de un componente"/> */}
        <br/>
-       
-      <header className="App-header">
-      
-    
-        <h2>Este es un Titulo h2</h2>
-      
-
-          <button className="btn btn-primary">Boton de Prueba</button>
-
-      </header>
     </div>
+    </BrowserRouter>
   );
 }
 

@@ -3,6 +3,8 @@ import logo from '../logo.svg';
 import {Dropdown} from 'react-bootstrap';
 import {CardWidget} from './cardwidget';
 
+// Para usar Router
+import {Link} from "react-router-dom"
 
 export const NavBar = () => {
     //aca va javascript
@@ -10,11 +12,12 @@ export const NavBar = () => {
     return(
         
         <nav className=" navbar navbar-expand-lg navbar-light bg-light border-top-0 "> {/* fixed-top */}
-
-            <a className="navbar-brand" href="#">
+            
+            {/* Este era un a y lo cambie por link para usar router */}
+            <Link to = '/' className="navbar-brand" href="#">
             <img src={logo} width="30" height="30" className="d-inline-block align-top" alt=""/>
             E-Commerce
-            </a>
+            </Link>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -24,7 +27,7 @@ export const NavBar = () => {
             <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
                 <ul className="navbar-nav">
 
-                    <li className="nav-item nav-link active" href="#">Home <span className="sr-only">(current)</span></li>
+                    <Link to = '/list' className="nav-item nav-link active" href="#">Productos <span className="sr-only">(current)</span></Link>
                     <li className="nav-item nav-link" href="#">Features</li>
                     <li className="nav-item nav-link" href="#">Pricing</li>
                     <li className="nav-item nav-link disabled" href="#">Disabled</li>

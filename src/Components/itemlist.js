@@ -10,7 +10,7 @@ let products = [
         title: 'Primer Producto',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://image.flaticon.com/icons/png/512/1020/1020878.png',
+        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264717.svg?token=exp=1616547035~hmac=e982c87a752d77c7cd798a5f75538c66',
         stock: 5
     },
     {
@@ -18,7 +18,7 @@ let products = [
         title: 'Segundo Producto',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://image.flaticon.com/icons/png/512/1020/1020878.png',
+        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264575.svg?token=exp=1616547080~hmac=47177da266eae7e995166498b0571cc8',
         stock: 5
     },
     {
@@ -26,7 +26,7 @@ let products = [
         title: 'Tercer Producto',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://image.flaticon.com/icons/png/512/1020/1020878.png',
+        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264563.svg?token=exp=1616547035~hmac=f46b53e31715989185a8c207cb08bf60',
         stock: 5
     },
     {
@@ -34,7 +34,7 @@ let products = [
         title: 'Cuarto Producto',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://image.flaticon.com/icons/png/512/1020/1020878.png',
+        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264794.svg?token=exp=1616547035~hmac=bf5bf3f26f83c526455c24e537bacbcb',
         stock: 5
     },
     {
@@ -42,7 +42,7 @@ let products = [
         title: 'Quinto Producto',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://image.flaticon.com/icons/png/512/1020/1020878.png',
+        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264750.svg?token=exp=1616547035~hmac=7d9f5a25610c6a4162ef6868d21d18e7',
         stock: 5
     }
 ]; 
