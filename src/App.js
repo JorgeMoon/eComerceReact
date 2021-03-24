@@ -19,9 +19,12 @@ function App() {
        <NavBar/> 
        <Switch>
           <Route exact path ='/'>
-            HOLA
+            HOLA Los productos estan en el menu del navbar "Productos"
           </Route>
           <Route path ='/list'>
+            <ItemListContainer/>
+          </Route>
+          <Route path ='/category/:categoryId'>
             <ItemListContainer/>
           </Route>
           <Route path = '/detail'>

@@ -7,43 +7,48 @@ import {ItemCount} from './itemcount';
 let products = [
     {
         id: 'P001',
-        title: 'Primer Producto',
+        categoria: "Frutas",
+        title: 'Tomate',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
         pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264717.svg?token=exp=1616547035~hmac=e982c87a752d77c7cd798a5f75538c66',
-        stock: 5
+        stock: 17
     },
     {
         id: 'P002',
-        title: 'Segundo Producto',
+        categoria: "Frutas",
+        title: 'Palta',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
         pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264575.svg?token=exp=1616547080~hmac=47177da266eae7e995166498b0571cc8',
-        stock: 5
+        stock: 13
     },
     {
         id: 'P003',
-        title: 'Tercer Producto',
+        categoria: "Citricos",
+        title: 'Limon',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
         pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264563.svg?token=exp=1616547035~hmac=f46b53e31715989185a8c207cb08bf60',
-        stock: 5
+        stock: 4
     },
     {
         id: 'P004',
-        title: 'Cuarto Producto',
+        categoria: "Frutos Secos",
+        title: 'Coco',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
         pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264794.svg?token=exp=1616547035~hmac=bf5bf3f26f83c526455c24e537bacbcb',
-        stock: 5
+        stock: 20
     },
     {
         id: 'P005',
-        title: 'Quinto Producto',
+        categoria: "Frutos Secos",
+        title: 'Avellana',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
         pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264750.svg?token=exp=1616547035~hmac=7d9f5a25610c6a4162ef6868d21d18e7',
-        stock: 5
+        stock: 8
     }
 ]; 
 
@@ -72,7 +77,7 @@ export const ItemList = () =>{
         <>
         {/* paso como parametro la imagen al otro componente */}
         {/* ${console.log(p)} */}
-        {p.map(pro => <ItemCount pictureUrl = {pro.pictureUrl}/>)}
+        {p.map(pro => <ItemCount title = {pro.title} pictureUrl = {pro.pictureUrl} categoria = {pro.categoria} stock = {pro.stock}/>)}
         {/* <ItemCount pictureUrl = {products.pictureUrl}/> */}
         </>
     )

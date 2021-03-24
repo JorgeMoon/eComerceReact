@@ -28,6 +28,7 @@ export const NavBar = () => {
                 <ul className="navbar-nav">
 
                     <Link to = '/list' className="nav-item nav-link active" href="#">Productos <span className="sr-only">(current)</span></Link>
+                    {/* <Link to = '/category' className="nav-item nav-link active" href="#"> Categoria <span className="sr-only">(current)</span></Link> */}
                     <li className="nav-item nav-link" href="#">Features</li>
                     <li className="nav-item nav-link" href="#">Pricing</li>
                     <li className="nav-item nav-link disabled" href="#">Disabled</li>
