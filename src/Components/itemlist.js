@@ -11,7 +11,7 @@ let products = [
         title: 'Tomate',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264717.svg?token=exp=1616547035~hmac=e982c87a752d77c7cd798a5f75538c66',
+        pictureUrl:'../svg/tomato.svg',
         stock: 17
     },
     {
@@ -66,7 +66,6 @@ export const ItemList = () =>{
         (products) => {
             setProductos(products)
 
-            /* console.log(products) */
         },
 
         (error) => {/* {console.log(error) */
@@ -78,7 +77,6 @@ export const ItemList = () =>{
         {/* paso como parametro la imagen al otro componente */}
         {/* ${console.log(p)} */}
         {p.map(pro => <ItemCount title = {pro.title} pictureUrl = {pro.pictureUrl} categoria = {pro.categoria} stock = {pro.stock}/>)}
-        {/* <ItemCount pictureUrl = {products.pictureUrl}/> */}
         </>
     )
 }

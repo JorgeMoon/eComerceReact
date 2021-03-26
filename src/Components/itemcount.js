@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {Button} from 'react-bootstrap';
 import {Card} from 'react-bootstrap';
 import {Form} from 'react-bootstrap';
+import {ItemDetail} from './itemdetail'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart} from '@fortawesome/free-solid-svg-icons'
@@ -36,6 +37,7 @@ export const ItemCount = (props) =>{
                     <Card.Text>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa!.
                     </Card.Text>
+                    <ItemDetail/>
                     <p className="bg-info text-white">Stock: <span>{props.stock}</span></p>
 
                     <Form>

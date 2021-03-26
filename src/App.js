@@ -6,6 +6,8 @@ import './App.css';
 
 //Routering
 import {BrowserRouter, Switch, Route} from "react-router-dom";
+//items
+import { ItemDetailContainer } from './Components/itemdetailcontainer';
 
 
 
@@ -38,7 +40,10 @@ function App() {
        {/* <ItemListContainer greeting="Este texto esta pasado por parametros como Propiedad de un componente"/> */}
        <br/>
     </div>
+    <ItemDetailContainer/>
     </BrowserRouter>
+
+
   );
 }
 
