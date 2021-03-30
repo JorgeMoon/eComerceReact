@@ -29,18 +29,17 @@ function App() {
           <Route path ='/category/:categoryId'>
             <ItemListContainer/>
           </Route>
-          <Route path = '/detail'>
-            DETALLE DEL PRODUCTO
-            {/* <ItemDetailContainer/> */}
+          <Route path='/item/:itemId' >
+            <h2>este seria el detalle</h2>
+              <ItemDetailContainer />
           </Route>
+
           <Route path = '*'>
             404
           </Route>
         </Switch>
-       {/* <ItemListContainer greeting="Este texto esta pasado por parametros como Propiedad de un componente"/> */}
-       <br/>
     </div>
-    <ItemDetailContainer/>
+    {/* <ItemDetailContainer/> */}
     </BrowserRouter>
 
 
