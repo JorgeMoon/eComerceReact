@@ -20,7 +20,7 @@ let products = [
         title: 'Palta',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264575.svg?token=exp=1616547080~hmac=47177da266eae7e995166498b0571cc8',
+        pictureUrl:'../svg/avocado.svg',
         stock: 13
     },
     {
@@ -29,7 +29,7 @@ let products = [
         title: 'Limon',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264563.svg?token=exp=1616547035~hmac=f46b53e31715989185a8c207cb08bf60',
+        pictureUrl:'../svg/lemon-1.svg',
         stock: 4
     },
     {
@@ -38,16 +38,16 @@ let products = [
         title: 'Coco',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264794.svg?token=exp=1616547035~hmac=bf5bf3f26f83c526455c24e537bacbcb',
+        pictureUrl:'../svg/coconut.svg',
         stock: 20
     },
     {
         id: 'P005',
-        categoria: "Frutos Secos",
+        categoria: "Verdura",
         title: 'Avellana',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, odit dolor?',
         price: '6548',
-        pictureUrl:'https://www.flaticon.es/svg/vstatic/svg/4264/4264750.svg?token=exp=1616547035~hmac=7d9f5a25610c6a4162ef6868d21d18e7',
+        pictureUrl:'../svg/aubergine.svg',
         stock: 8
     }
 ]; 
